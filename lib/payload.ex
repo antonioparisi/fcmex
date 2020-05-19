@@ -9,6 +9,7 @@ defmodule Fcmex.Payload do
     :notification,
     :data,
     :priority,
+    :apns,
     :time_to_live,
     :collapse_key,
     :content_available
@@ -18,6 +19,7 @@ defmodule Fcmex.Payload do
     notification: %{},
     data: %{},
     priority: "high",
+    apns: nil,
     time_to_live: nil,
     collapse_key: nil,
     content_available: nil
